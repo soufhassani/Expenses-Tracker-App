@@ -1,0 +1,25 @@
+.main {
+  max-width: 1200px;
+  padding: 00px 40px;
+  overflow: hidden;
+}
+.appTitle {
+  text-align: left;
+  color: dodgerblue;
+}
+.mainContent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100%;
+}
+.addNewItemContainer {
+  flex: 0.5;
+  padding-right: 20px;
+  border-right: 2px solid #fdfdfd;
+  height: 100%;
+}
+.tableContainer {
+  flex: 1;
+  padding-left: 20px;
+}

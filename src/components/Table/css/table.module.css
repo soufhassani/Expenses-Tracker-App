@@ -1,0 +1,47 @@
+.table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  border: 1px solid #fdfdfd;
+  border-radius: 20px;
+}
+
+.th {
+  text-align: left;
+  padding: 20px 10px;
+  border-bottom: 1px solid #fdfdfd;
+}
+.tr {
+  border-bottom: 1px solid #fdfdfd;
+}
+.tr:last-child {
+  border-bottom: 1px solid #fdfdfd;
+  background-color: #fdfdfd;
+}
+
+.tr td {
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.tr td button {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: firebrick;
+  background-color: transparent;
+  border: 1px solid firebrick;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.tr td button:hover {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: white;
+  background-color: firebrick;
+  border: 1px solid firebrick;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
